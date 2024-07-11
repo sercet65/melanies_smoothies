@@ -47,7 +47,6 @@ if ingredients_list:
         st.success('Your Smoothie is ordered!', icon="✅")
         
 
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-fv.df=st.dataframe(data=fruityvice_response.json(), use_container_width=True)
+
 
 
